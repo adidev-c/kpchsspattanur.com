@@ -6,12 +6,12 @@
         {
             "sizes": "192x192",
             "type": "image/png",
-            "src": "//images.kpchsspattanur.com/logo/kpc/logo.webp"
+            "src": "//images.kpchsspattanur.com/logo/kpc/192.png"
         },
         {
             "sizes": "512x512",
             "type": "image/png",
-            "src": "//images.kpchsspattanur.com/logo/kpc/logo.webp"
+            "src": "//images.kpchsspattanur.com/logo/kpc/512.png"
         }
     ],
     "name": "KPCHSS PATTANUR",
