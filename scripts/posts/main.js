@@ -2,9 +2,10 @@ import { GetYtVideoSection } from "./video.js"
 import { GetPostSection } from "./post.js"
 const videoType = "video"
 const imageType = "image"
+const postURL = "https://images.kpchsspattanur.com/data/posts.json"
 function LoadPosts() {
     let container = document.getElementById("posts");
-    fetch('data/posts.json')
+    fetch(postURL)
         .then(response => response.json())
         .then(data => {
             data.reverse();
